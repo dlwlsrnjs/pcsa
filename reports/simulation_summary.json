@@ -1,0 +1,22 @@
+{
+  "simulation_only": true,
+  "seed": 20261002,
+  "targets": 4,
+  "cases_per_target": 1000,
+  "paired_cases": 4000,
+  "failure_rates": {
+    "fixed": 0.0622,
+    "profile_blind": 0.1005,
+    "profile_aware": 0.204
+  },
+  "aware_minus_blind": 0.1035,
+  "paired_bootstrap_95_ci": [
+    0.0943,
+    0.1133
+  ],
+  "discordant_pairs": {
+    "aware_only": 414,
+    "blind_only": 0
+  },
+  "warning": "Synthetic design validation; not an LLM experiment or safety claim."
+}

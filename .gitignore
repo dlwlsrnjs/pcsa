@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Raw/processed datasets are hosted in a private Hugging Face repository.
+data/raw/
+data/processed/
+
+# Generated experiment artifacts
+mental_health_agent_eval/runs/*.jsonl
+!mental_health_agent_eval/runs/.gitkeep
+
+# Local archives and credentials
+*.zip
+*.token

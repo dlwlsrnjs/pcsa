@@ -1,0 +1,245 @@
+{
+  "cactus": {
+    "rows": 31577,
+    "fields": [
+      "attitude",
+      "cbt_plan",
+      "cbt_technique",
+      "dialogue",
+      "intake_form",
+      "patterns",
+      "thought"
+    ],
+    "missing_required": {},
+    "exact_content_duplicates": 0,
+    "attitudes": {
+      "negative": 9469,
+      "neutral": 10882,
+      "positive": 11226
+    },
+    "unique_patterns": 11,
+    "top_patterns": [
+      [
+        "overgeneralization",
+        20353
+      ],
+      [
+        "jumping to conclusions: fortune-telling",
+        14969
+      ],
+      [
+        "personalization",
+        14405
+      ],
+      [
+        "mental filtering",
+        13981
+      ],
+      [
+        "labeling and mislabeling",
+        13370
+      ],
+      [
+        "catastrophizing",
+        12249
+      ],
+      [
+        "discounting the positive",
+        11914
+      ],
+      [
+        "black-and-white or polarized thinking / all or nothing thinking",
+        11439
+      ],
+      [
+        "jumping to conclusions: mind reading",
+        8821
+      ],
+      [
+        "none",
+        1898
+      ],
+      [
+        "should statements",
+        1289
+      ]
+    ],
+    "unique_cbt_techniques": 34,
+    "top_cbt_techniques": [
+      [
+        "Alternative Perspective",
+        8916
+      ],
+      [
+        "Reality Testing",
+        7789
+      ],
+      [
+        "Behavior Experiment",
+        4963
+      ],
+      [
+        "Decatastrophizing",
+        4477
+      ],
+      [
+        "Efficiency Evaluation",
+        2067
+      ],
+      [
+        "Changing Rules to Wishes",
+        1252
+      ],
+      [
+        "Problem-Solving Skills Training",
+        1108
+      ],
+      [
+        "Evidence-Based Questioning",
+        339
+      ],
+      [
+        "Pros and Cons Analysis",
+        169
+      ],
+      [
+        "Activity Scheduling",
+        150
+      ],
+      [
+        "Self-Assertiveness Training",
+        112
+      ],
+      [
+        "Thought Experiment",
+        85
+      ],
+      [
+        "Continuum Technique",
+        35
+      ],
+      [
+        "Behavioral Experiment",
+        23
+      ],
+      [
+        "Systematic Exposure",
+        18
+      ],
+      [
+        "Safety Behaviors Elimination",
+        13
+      ],
+      [
+        "Reframing",
+        12
+      ],
+      [
+        "Practice of Assertive Conversation Skills",
+        7
+      ],
+      [
+        "Effciency Evaluation",
+        3
+      ],
+      [
+        "Reframing Catastrophizing Thoughts",
+        3
+      ]
+    ],
+    "turns": {
+      "min": 21,
+      "median": 31,
+      "mean": 30.53,
+      "max": 35
+    },
+    "dialogue_characters": {
+      "min": 3040,
+      "median": 4755,
+      "mean": 4783.75,
+      "max": 7993
+    },
+    "pii_like_regex_hits": {
+      "email": 0,
+      "phone": 0
+    },
+    "privacy_note": "Synthetic personas still contain realistic names/demographics; treat as sensitive research data."
+  },
+  "cbt_dp": {
+    "comparison_rows": 468,
+    "unique_client_statements": 156,
+    "unique_input_ids": 468,
+    "duplicate_input_ids": 0,
+    "exercises": {
+      "Exercise: Assigning and Reviewing Between-Session Activities": 51,
+      "Exercise: Working With Emotions": 51,
+      "Exercise: Negotiating a Session Agenda": 45,
+      "Exercise: Responding to Client Resistance": 45,
+      "Exercise: Adherence Flexibility": 48,
+      "Exercise: Explaining the Treatment Rationale for Cognitive Behavioral Therapy": 42,
+      "Exercise: Responding to Therapeutic Alliance Ruptures": 45,
+      "Exercise: Working With Behaviors": 45,
+      "Exercise: Establishing Goals": 48,
+      "Exercise: Working With Cognitions": 48
+    },
+    "levels": {
+      "intermediate": 165,
+      "advanced": 156,
+      "beginner": 147
+    },
+    "presentation_order": {
+      "A_is_ref": 237,
+      "B_is_ref": 231
+    },
+    "fields": [
+      "Answer.all_a_e_b",
+      "Answer.all_a_mb_b",
+      "Answer.all_a_sb_b",
+      "Answer.all_b_mb_a",
+      "Answer.all_b_sb_a",
+      "Answer.cr_1_a_e_b",
+      "Answer.cr_1_a_mb_b",
+      "Answer.cr_1_a_sb_b",
+      "Answer.cr_1_b_mb_a",
+      "Answer.cr_1_b_sb_a",
+      "Answer.cr_2_a_e_b",
+      "Answer.cr_2_a_mb_b",
+      "Answer.cr_2_a_sb_b",
+      "Answer.cr_2_b_mb_a",
+      "Answer.cr_2_b_sb_a",
+      "Answer.cr_3_a_e_b",
+      "Answer.cr_3_a_mb_b",
+      "Answer.cr_3_a_sb_b",
+      "Answer.cr_3_b_mb_a",
+      "Answer.cr_3_b_sb_a",
+      "Answer.cr_4_a_e_b",
+      "Answer.cr_4_a_mb_b",
+      "Answer.cr_4_a_sb_b",
+      "Answer.cr_4_b_mb_a",
+      "Answer.cr_4_b_sb_a",
+      "HITId",
+      "Input.client_statement",
+      "Input.cr_1",
+      "Input.cr_2",
+      "Input.cr_3",
+      "Input.cr_4",
+      "Input.exe",
+      "Input.id",
+      "Input.level",
+      "Input.order",
+      "Input.res_a",
+      "Input.res_b",
+      "Title"
+    ],
+    "note": "Pairwise-comparison rows repeat the 156 underlying exercises across systems/orderings."
+  },
+  "candidate_export": {
+    "candidate_rows": 156,
+    "risk_flagged": 0
+  },
+  "cheeseburger_therapy": {
+    "downloaded": false,
+    "reported_sessions": 116,
+    "reason": "No public dataset artifact found; source paper obtained it by request with licensing/consent and IRB approval."
+  }
+}
