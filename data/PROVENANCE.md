@@ -1,5 +1,8 @@
 # Dataset provenance
 
+- Code repository: https://github.com/dlwlsrnjs/pcsa
+- Private dataset repository: https://huggingface.co/datasets/jin-kwon/pcsa-data
+
 ## Cactus
 
 - Official repository: https://github.com/coding-groot/cactus

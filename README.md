@@ -21,6 +21,15 @@ python3 analyze_datasets.py
 
 원본 데이터는 크기와 이용 조건 때문에 Git에 포함하지 않습니다. `data/README.md`와 private Hugging Face dataset repository를 참고하세요. Cheeseburger Therapy 인간 대화는 일반 공개 다운로드 자료가 아니므로 포함하지 않습니다.
 
+## 저장소와 데이터
+
+- 코드·설계·보고서: https://github.com/dlwlsrnjs/pcsa
+- Private 데이터셋: https://huggingface.co/datasets/jin-kwon/pcsa-data
+- 데이터 provenance: [`data/PROVENANCE.md`](data/PROVENANCE.md)
+- 데이터 감사 결과: [`reports/dataset_audit.json`](reports/dataset_audit.json)
+
+Hugging Face 저장소는 private이므로 `jin-kwon` 계정에서 접근 권한을 부여받은 사용자만 열 수 있습니다.
+
 ## 주의
 
 - 합성 simulation 결과는 실제 LLM 안전성 결과가 아닙니다.

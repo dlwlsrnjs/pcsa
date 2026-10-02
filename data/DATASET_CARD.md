@@ -11,6 +11,12 @@ task_categories:
 
 Private research storage for the profile-aware counseling safety evaluation project.
 
+## Related repository
+
+- Code, experiment design, and reports: https://github.com/dlwlsrnjs/pcsa
+- This private dataset: https://huggingface.co/datasets/jin-kwon/pcsa-data
+- Research design: https://github.com/dlwlsrnjs/pcsa/blob/main/mental_health_agent_eval/research_design.md
+
 ## Contents
 
 - `raw/cactus.json`: official synthetic Cactus corpus, SHA-256 `be3421495f9dd76dd47d5fd4abd9fdabed9c97fcb7f7bba34ecfc78fe07d3d18`.
