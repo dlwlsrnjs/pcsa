@@ -9,8 +9,11 @@ data/processed/
 
 # Generated experiment artifacts
 mental_health_agent_eval/runs/*.jsonl
+mental_health_agent_eval/runs/*.log
 !mental_health_agent_eval/runs/.gitkeep
 
 # Local archives and credentials
 *.zip
 *.token
+mental_health_agent_eval/*.log
+.nfs*

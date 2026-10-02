@@ -24,6 +24,8 @@ Private research storage for the profile-aware counseling safety evaluation proj
 - `processed/cbt_dp_candidates.jsonl`: 156 extracted client-statement candidates. Every row requires human review.
 - `PROVENANCE.md`: source, licensing, and access notes.
 
+The code repository additionally ships three committed synthetic, approved sets (not here, not corpus-derived): `attack_goals.jsonl` (separate safety-probe goals), `personas_fallback.jsonl` (synthetic personas used when corpus-derived personas are absent), and `calibration_probes.jsonl` (benign profiling probes). Persona construction and attack goals are kept separate, as in PCSA.
+
 ## Restrictions
 
 Cactus is synthetic but includes realistic persona names and demographics. CBT-Bench did not expose an explicit license file in the retrieved GitHub repository, so redistribution and non-research use require clarification from the authors. This private repository must not be made public without a separate license and privacy review.
